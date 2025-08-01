@@ -13,7 +13,7 @@ st.markdown(""" <h2 style= "text-align:left;color:Orange;">Vibe Check : Press Pl
 # Audio file path
 # OR--> st.audio("C:\\Users\\ASUS\\Downloads\\Sapphire - (Raag.Fm).mp3", format="audio/mp3", start_time=0)-----------------
 
-audio_file = open("Spotify_Dashboard\audio\Sapphire - (Raag.Fm).mp3", "rb") # Open the audio file in binary mode(rb: read binary)
+audio_file = open("Spotify_Dashboard/audio/Sapphire - (Raag.Fm).mp3", "rb") # Open the audio file in binary mode(rb: read binary)
 st.audio(audio_file, format='audio/mp3', start_time=0) # To Display the audio player with the file
 
 #--------------------------------------------------------------------------------------------------------------------------------------
