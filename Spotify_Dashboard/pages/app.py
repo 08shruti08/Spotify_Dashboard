@@ -13,7 +13,7 @@ st.set_page_config(page_title="Spotify Dashboard", page_icon=":bar_chart:", layo
 # Use st.cache_data to cache the data loading function
 @st.cache_data
 def load_data():
-    df =pd.read_csv("Dataset\spotify_tracks.csv")
+    df = pd.read_csv("Dataset/spotify_tracks.csv")
     return df
 df = load_data()
 
